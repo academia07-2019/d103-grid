@@ -3,6 +3,7 @@ aside{
 }
 body{
     display: grid;
+    cursor: url("../images/kunai.png"), default;
     font-family: 'Permanent Marker', cursive;
     grid-template-areas: 'navbar navbar navbar navbar'
                          'header header header aside'
@@ -31,6 +32,7 @@ nav a{
 }
 nav a:hover{
     color: #bb2127;
+    cursor: url("../images/kunai.png"), default;
 }
 nav > img{
     width: 45px;
