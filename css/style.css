@@ -1,5 +1,22 @@
 aside{
+    background-color: #282a25f0;
     grid-area: aside;
+}
+aside p{
+    font-family: 'Montserrat', sans-serif;
+}
+aside h2{
+    text-align: center;
+}
+aside h2, aside p{
+    color: white;
+    padding: 0 15px;
+}
+aside ul{
+    list-style-image: url("../images/nuvem-icon.png");
+}
+aside ul li{
+    color: white;
 }
 body{
     display: grid;
