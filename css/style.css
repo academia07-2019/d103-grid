@@ -10,13 +10,15 @@ body{
                          'section section section aside'
                          'footer footer footer footer';
 grid-template-columns: 25vw 25vw 25vw 25vw;
-grid-template-rows: 8vh 25vh 60vh 10vh;
+grid-template-rows: 8vh 40vh 60vh 10vh;
 margin: 0;
 }
 footer{
     grid-area: footer;
 }
 header{
+    background-image: url("../images/akatsuki.jpg");
+    background-size: cover;
     grid-area: header;
 }
 nav{
