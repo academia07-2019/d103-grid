@@ -63,3 +63,17 @@ nav > img{
 section{
     grid-area: section;
 }
+section div{
+    display: flex;
+    justify-content: center;
+}
+section h2{
+    margin: 0;
+    text-align: center;
+}
+section input:focus{
+    background-color: lightgray;
+}
+section input::placeholder{
+    color: #bb2127;
+}
