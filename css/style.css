@@ -1,10 +1,25 @@
+aside{
+    grid-area: aside;
+}
 body{
     display: grid;
-    grid-template-areas: 'nav nav nav nav'
+    grid-template-areas: 'navbar navbar navbar navbar'
                          'header header header aside'
                          'section section section aside'
                          'footer footer footer footer';
 grid-template-columns: 25vw 25vw 25vw 25vw;
 grid-template-rows: 8vh 25vh 60vh 10vh;
 margin: 0;
+}
+footer{
+    grid-area: footer;
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: navbar;
+}
+section{
+    grid-area: section;
 }
